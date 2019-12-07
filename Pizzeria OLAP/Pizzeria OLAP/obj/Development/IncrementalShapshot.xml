@@ -1,0 +1,68 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Pizzeria OLAP</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>xedTZKPBbI8a1b5tdATgGQ==23/04/2009 2:05:5423/04/2009 2:05:53</TimeStamp>
+        <ID>
+          <String>Pizzeria</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>91J1evN8sOt2AzqRH4XiEw==23/04/2009 2:06:1723/04/2009 2:06:15</TimeStamp>
+        <ID>
+          <String>Pizzeria</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>prL4f6tU7vmZCNvwFbjhpw==23/04/2009 2:41:1623/04/2009 2:41:15</TimeStamp>
+        <ID>
+          <String>Pizza</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qDepntSU9EHsx6nmxSLfyQ==23/04/2009 2:41:1623/04/2009 2:41:15</TimeStamp>
+        <ID>
+          <String>Tamanios Pizza</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>oYosRGiKmUARMuxO+O3nwA==23/04/2009 2:41:1623/04/2009 2:41:15ZC0vrgqijyauakuDjLQr4Q==23/04/2009 2:41:1623/04/2009 2:41:15</TimeStamp>
+        <ID>
+          <String>Pizzeria</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>/0TIm5roN768US2B3BTNXw==23/04/2009 2:02:0423/04/2009 2:02:03</TimeStamp>
+      <ID>
+        <String>Pizzeria OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2009-04-23T07:42:28Z</LastDeployed>
+</DeploymentSnapshot>
